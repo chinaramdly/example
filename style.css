@@ -1,13 +1,26 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
+  padding: 50px;
 }
-
-a {
-  color: orange;
+body .box, body input, body .btn {
+  border-radius: 20px;
 }
-
-a:hover {
-  color: black;
+body .box {
+  padding: 30px;
+  background-color: #9c6644;
+  width: 230px;
 }
-/*# sourceMappingURL=style.css.map */
+body .box h1 {
+  color: white;
+  font-size: 40px;
+}
+body .box input {
+  padding: 10px;
+  margin: 15px 0;
+  width: 130px;
+}
+body .box .btn {
+  padding: 3px 20px;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
